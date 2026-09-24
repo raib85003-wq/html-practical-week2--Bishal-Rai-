@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+</head>
+<body>
+    <header>
+        <h1>Student Registration Form</h1>
+        <p>Welcome to the student registration page.</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a> |
+        <a href="#registration">Registration</a> |
+        <a href="#about">About</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section id="home">
+
+            <h2>Welcome</h2>
+
+            <article>
+                <h3>Student Registration</h3>
+                <p>
+                    Please fill out the registration form below
+                    to register as a student.
+                </p>
+            </article>
+
+        </section>
+        <section id="registration">
+
+            <h2>Registration Form</h2>
+
+            <form>
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+
+                <br><br>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+
+                <br><br>
+
+
+                <!-- Gender -->
+                <label>Gender:</label>
+
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+
+                <br><br>
+
+
+                <!-- Interests -->
+                <label>Interests:</label>
+
+                <input type="checkbox" id="programming" name="interests">
+                <label for="programming">Programming</label>
+
+                <input type="checkbox" id="gaming" name="interests">
+                <label for="gaming">Gaming</label>
+
+                <input type="checkbox" id="sports" name="interests">
+                <label for="sports">Sports</label>
+
+                <br><br>
+
+
+                <!-- Department -->
+                <label for="department">Department:</label>
+
+                <select id="department" name="department">
+                    <option value="">-- Select Department --</option>
+                    <option value="bit">BIT</option>
+                    <option value="bca">BCA</option>
+                    <option value="bim">BIM</option>
+                    <option value="csit">BSc CSIT</option>
+                </select>
+
+                <br><br>
+                <label for="about">About You:</label>
+                <br>
+
+                <textarea id="about" name="about"
+                          rows="5" cols="40"></textarea>
+
+                <br><br>
+
+                <input type="submit" value="Submit">
+
+            </form>
+
+        </section>
+        <section id="about">
+
+            <h2>About Us</h2>
+
+            <article>
+                <h3>Our College</h3>
+                <p>
+                    Our college provides quality education and
+                    helps students develop technical and professional skills.
+                </p>
+            </article>
+
+        </section>
+    </main>
+    <footer id="contact">
+
+        <p>Contact: Bidhyarthi@example.com</p>
+        <p>&copy; 2026 Student Registration System</p>
+
+    </footer>
+
+</body>
+</html>
